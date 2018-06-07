@@ -18,8 +18,8 @@ body {
 	text-align: center;
 }
 .picture {
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 	background-image: url("../img/pp.jpg");
 	background-position: center;
 	background-size: cover;
@@ -30,13 +30,13 @@ body {
 }
 .name {
 	color: #fff;
-	font-size: 40px;
+	font-size: 50px;
 	text-shadow: 1px 1px #336;
 	margin-top: 32px;
 }
 .job-title {
 	color: #fff;
-	font-size: 25px;
+	font-size: 30px;
 	text-shadow: 1px 1px #336;
 	margin-bottom: 32px;
 }
@@ -48,6 +48,6 @@ body {
 	color: #fff;
 	text-decoration: none;
 	margin: 0 2px;
-	font-size: 20px;
-	text-shadow: 0 0 2px #336;
+	font-size: 25px;
+	text-shadow: 1px 1px 1px #336;
 }
