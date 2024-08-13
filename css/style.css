@@ -1,52 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #B4D5AE;
+    color: #284323;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+}
+
 body {
-	margin: 0;
-	font-family: Lobster;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-	background: url("https://source.unsplash.com/featured/?beach") center,
-				linear-gradient(to left, #8360c3, #2ebf91);
-	background-size: cover;
-	position: relative;
-	z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-.container {
-	z-index: 2;
-	text-align: center;
+
+h1, h2 {
+    margin: 0;
 }
-.picture {
-	height: 150px;
-	width: 150px;
-	background: url("../img/pp.jpg") center;
-	background-size: cover;
-	display: inline-block;
-	border-radius: 100%;
-	border: 5px solid #fff;
-	box-shadow: 1px 1px #336;
+
+h1 {
+    font-weight: bold;
 }
-.name {
-	color: #fff;
-	font-size: 50px;
-	text-shadow: 1px 1px #336;
-	margin-top: 32px;
+h2 {
+    margin-top: 4px;
+    font-weight: normal;
+    font-size: 1em;
 }
-.job-title {
-	color: #fff;
-	font-size: 30px;
-	text-shadow: 1px 1px #336;
-	margin-bottom: 32px;
-}
-.links > a,
-.links > a:visited,
-.links > a:focus,
-.links > a:hover,
-.links > a:active {
-	color: #fff;
-	text-decoration: none;
-	margin: 0 2px;
-	font-size: 25px;
-	text-shadow: 1px 1px 1px #336;
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 4px solid #284323;
+    padding: 32px;
+    ul {
+        margin: 32px 0 0;
+        display: flex;
+        gap: 24px;
+        padding: 0;
+        li {
+            list-style: none;
+            a {
+                color: #284323;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        }
+    }
 }

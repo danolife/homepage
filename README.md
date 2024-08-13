@@ -1,3 +1,3 @@
 # Homepage
 
-[dany.app](https://dany.app)
+[danolife.com](https://danolife.com)
